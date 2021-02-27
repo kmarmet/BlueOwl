@@ -1,0 +1,19 @@
+@mixin scrollbar() {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background:$lightGrey;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $blueOwlBlue;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+  }
+}
